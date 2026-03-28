@@ -3,11 +3,62 @@
 <html>
 
 <head>
+	<titile>
+		My Accessible Portfolio
+	</titile>
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	 
+	    <!-- Heading -->
+    <h1 role="heading">Deep Chand - Portfolio</h1>
+
+
+	<!-- Navigation -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+	 <!-- Image -->
+    <img 
+        src="https://images.unsplash.com/photo-1637684666993-71805a866275?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="Profile picture" 
+		role="img"
+    >
+
+	<!-- Description -->
+    <section id="about">
+        <p>
+            Hello! I am Deep Chand, a passionate web developer who loves building modern,
+            scalable, and user-friendly applications. I focus on creating clean UI and
+            efficient backend systems.
+        </p>
+    </section>
+
+	<!-- List Section -->
+    <section id="projects">
+        <h2>My Skills</h2>
+        <ul role="list">
+            <li role="listitem">Frontend Development </li>
+            <li role="listitem">Backend Development </li>
+            <li role="listitem">Full Stack Projects </li>
+        </ul>
+    </section>
+
+	 <!-- Contact -->
+    <section id="contact">
+        <p>
+            Contact me at: deep@example.com
+        </p>
+    </section>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
